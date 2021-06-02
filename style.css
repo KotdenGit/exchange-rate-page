@@ -1,0 +1,22 @@
+.rate-item {
+    display: flex;
+    flex-direction: row;
+}
+
+.rate-item :first-child {
+    font-style: italic;
+    width: 30%;
+}
+
+.rate-item :nth-child(2) {
+    width: 20%;
+    text-align: center;
+}
+
+.rate-item :nth-last-child(2) {
+    width: 15%
+}
+
+h2 {
+    margin-left: 5%;
+}
